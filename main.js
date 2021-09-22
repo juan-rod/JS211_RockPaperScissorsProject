@@ -1,6 +1,9 @@
 // uses strict mode so strings are not coerced, variables are not hoisted, etc... 
 'use strict';
-
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+  
+}
 // brings in the assert module for unit testing
 const assert = require('assert');
 // brings in the readline module to access the command line
